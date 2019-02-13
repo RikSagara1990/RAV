@@ -9,6 +9,13 @@
     <title>РАВ</title>
 </head>
 <body>
-
+    <header>
+        <nav>
+        </nav>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
 </body>
 </html>
