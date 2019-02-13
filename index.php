@@ -10,6 +10,19 @@
 </head>
 <body>
     <header>
+        <a id="logo" href="index.php" title="перейти на главную станицу">
+            <span>РАВ</span>
+        </a>
+        <div id="options">
+            <a id="search">
+                <span>Поиск</span>
+                <img src="img/iconsearch.svg" alt="Поиск"> 
+            </a>
+            <a id="enterinprofile">
+                <span>Вход</span>
+                <img src="img/iconenterprofile.svg" alt="Вход в личный кабинет">
+            </a>
+        </div>
         <nav>
         </nav>
     </header>
