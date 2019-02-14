@@ -12,6 +12,7 @@ body{
     width:100%;
     font-size: 1em;
     font-family: "Roboto", sans-serif;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
 }
@@ -21,6 +22,7 @@ a{
     text-decoration: none;
 }
 
+
 /* __________HEADER */
 
 header{
@@ -28,15 +30,18 @@ header{
     height: 100px;
     border-bottom: 2px solid #D70101;
     background: url(img/header.svg) repeat-x center 0;
-    display: grid;
+    grid-column: 1/12;
+    
 }
 
 header #logo{
     text-align: center;
-
 }
 
 header #options{
     float: right;
-    
+    background: rgb(32, 172, 69);
+    grid-column: 9/12;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
 }
