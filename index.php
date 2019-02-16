@@ -11,6 +11,7 @@
 <body>
     <header>
         <div id="head">
+            
             <a id="logo" href="index.php" title="перейти на главную станицу">
                 <span>РАВ</span>
             </a>
@@ -23,10 +24,9 @@
                     <span>Вход</span>
                     <img src="img/iconenterprofile.svg" alt="Вход в личный кабинет">
                 </a>
-                <a>
-                </a>
-                <a>
-
+                <a id="adddocument">
+                    <span>Добавить документ</span>
+                    <img src="img/adddocument.svg" alt="Добавить документ">
                 </a>
             </div>
         <nav>
