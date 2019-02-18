@@ -10,8 +10,7 @@
 </head>
 <body>
     <header>
-        <div id="border-head">
-            <div id="head">
+        <div id="head">
                 <a id="logo" href="index.php" title="перейти на главную станицу">
                     <span>РАВ</span>
                 </a>
