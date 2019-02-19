@@ -67,7 +67,7 @@ header #head #options{
 header #head #options a {
     display: grid;
     grid-template-columns: 105px 25px;
-    font-size: 13px;
+    font-size: 14px;
     color: #000000;
     text-shadow: 1px 1px #F2F2F2, 1px -1px #F2F2F2, -1px 1px #F2F2F2, -1px -1px #F2F2F2;
 }
