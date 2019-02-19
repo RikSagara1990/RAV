@@ -19,13 +19,13 @@
                         <span>Поиск</span>
                         <img src="img/iconsearch.svg" alt="Поиск"> 
                     </a>
+                    <a id="adddocument">
+                        <span>Создать</span>
+                        <img src="img/adddocument.svg" alt="Создать">
+                    </a>
                     <a id="enterinprofile">
                         <span>Вход</span>
                         <img src="img/iconenterprofile.svg" alt="Вход в личный кабинет">
-                    </a>
-                    <a id="adddocument">
-                        <span>Добавить документ</span>
-                        <img src="img/adddocument.svg" alt="Добавить документ">
                     </a>
                 </div>
         </div>
