@@ -25,11 +25,13 @@ a{
 /* __________HEADER */
 
 header{
+    display: grid;
     width:100%;
+    grid-template-columns: repeat(12,1fr);
 }
 
 header #head{
-    width: 100%;
+    grid-column: 1/13;
     height: 100px;
     background: url(img/header.svg) repeat-x center 0;
     border-bottom: 2px solid #D70101;
@@ -90,6 +92,12 @@ header #head #options a img:hover{
 header #head #options #search{
     grid-column: 2;
 }
+
+/* __________NAV */
+nav {
+    grid-column: 2/12;
+}
+
 
 
 

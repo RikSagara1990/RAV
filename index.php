@@ -30,6 +30,36 @@
                 </div>
         </div>
         <nav>
+            <a class="menu">
+                <span>Эпос Масторава</span>
+            </a>
+            <a class="menu">
+                <span>Корнеслов</span>
+            </a>
+            <a class="menu">
+                <span>История</span>
+            </a>
+            <a class="menu">
+                <span>Археология</span>
+            </a>
+            <a class="menu">
+                <span>Этнография Традиции Обряды</span>
+            </a>
+            <a class="menu">
+                <span>Нацинальные костюмы</span>
+            </a>
+            <a class="menu">
+                <span>Прикладное искусство</span>
+            </a>
+            <a class="menu">
+                <span>Изобразительное искусство</span>
+            </a>
+            <a class="menu">
+                <span>Литература</span>
+            </a>
+            <a class="menu">
+                <span>Конкурсы</span>
+            </a>
         </nav>
 
     </header>
