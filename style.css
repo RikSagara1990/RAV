@@ -61,7 +61,7 @@ header #head .options{
     grid-auto-rows: 30px;
     justify-items: stretch; 
     padding: 15px;
-    align-items: center;
+   
 }
 
 header #head #user{
@@ -76,23 +76,20 @@ header #head .options a {
     font-size: 14px;
     color: #000000;
     text-shadow: 1px 1px #F2F2F2, 1px -1px #F2F2F2, -1px 1px #F2F2F2, -1px -1px #F2F2F2;
-}
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items:center;
+    justify-items:center;
 
-header #head .options span {
-    float: left;
 }
 
 header #head .options img {
     height: 25px;
-    float: right;
+
 }
 
-header #head #options a img:hover{
+header #head .options a img:hover{
     transform: scale(1.2,1.2);
-}
-
-header #head #options #search{
-    grid-column: 2;
 }
 
 /* __________NAV */
