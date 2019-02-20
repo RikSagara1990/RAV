@@ -36,13 +36,13 @@ header #head{
     background: url(img/header.svg) repeat-x center 0;
     border-bottom: 2px solid #D70101;
     display: grid;
-    grid-template-columns: repeat(12, 130px);
+    grid-template-columns: repeat(12, 1fr);
     justify-content: space-around;
 }
 
 header #head #logo{
     grid-column: 6/8;  
-    margin: 15px 0px;
+    margin: 15px;
     display: grid;
 }
 
@@ -55,34 +55,36 @@ header #head #logo span {
     align-self: center;
 }
 
-header #head #options{
-    grid-column: 11/13;
+header #head .options{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 30px;
     grid-row-gap: 10px;
     grid-auto-rows: 30px;
-    margin: 15px 0px;
-    justify-items: stretch;
+    justify-items: stretch; 
+    padding: 15px;
+    align-items: center;
 }
 
-header #head #options a {
-    display: grid;
-    grid-template-columns: 105px 25px;
+header #head #user{
+    grid-column: 11;
+}
+
+header #head #main{
+    grid-column: 12;
+}
+
+header #head .options a {
     font-size: 14px;
     color: #000000;
     text-shadow: 1px 1px #F2F2F2, 1px -1px #F2F2F2, -1px 1px #F2F2F2, -1px -1px #F2F2F2;
 }
 
-header #head #options span {
-    justify-self: center;
-    align-self: center;
+header #head .options span {
+    float: left;
 }
 
-header #head #options a img {
+header #head .options img {
     height: 25px;
     float: right;
-    align-self: center;
 }
 
 header #head #options a img:hover{
@@ -95,8 +97,13 @@ header #head #options #search{
 
 /* __________NAV */
 nav {
-    grid-column: 2/12;оук
+    grid-column: 2/12;
 }
+
+nav a {
+    
+}
+
 
 
 
