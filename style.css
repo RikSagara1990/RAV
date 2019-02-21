@@ -115,15 +115,9 @@ nav a {
     font-size: 16px;   
     color: #000000;
 }
-@media screen and (max-width: 1550px) {
-    nav a {
-        font-size: 14px;}      
-}
+@media screen and (max-width: 1550px) {nav a {font-size: 14px;}}
 
-@media screen and (max-width: 1400px) {
-    nav a {
-        font-size: 12px;}      
-}
+@media screen and (max-width: 1400px) {nav a {font-size: 12px;}}
 
 
 nav a:hover {
