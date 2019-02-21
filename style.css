@@ -34,6 +34,7 @@ header #head{
     grid-column: 1/13;
     height: 100px;
     background: url(img/header.svg) repeat-x center 0;
+    background-size: cover;
     border-bottom: 2px solid #D70101;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -60,8 +61,7 @@ header #head .options{
     grid-row-gap: 10px;
     grid-auto-rows: 30px;
     justify-items: stretch; 
-    padding: 15px;
-   
+    padding: 15px;   
 }
 
 header #head #user{
@@ -80,7 +80,6 @@ header #head .options a {
     grid-template-columns: 80% 20%;
     align-items:center;
     justify-items:center;
-
 }
 
 header #head .options img {
@@ -95,6 +94,9 @@ header #head .options a img:hover{
 /* __________NAV */
 nav {
     grid-column: 2/12;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* border: 2xp solid #D70101; */
 }
 
 nav a {
