@@ -31,7 +31,7 @@
                 </div>
         </div>
         <nav>
-            <a class="menu">
+            <a class="menu" id="menuoption1">
                 <span>Эпос Масторава</span>
             </a>
             <a class="menu">

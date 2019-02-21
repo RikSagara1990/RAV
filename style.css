@@ -35,7 +35,7 @@ header #head{
     height: 100px;
     background: url(img/header.svg) repeat-x center 0;
     background-size: cover;
-    border-bottom: 2px solid #D70101;
+    border-bottom: 3px solid #D70101;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-content: space-around;
@@ -92,17 +92,47 @@ header #head .options a img:hover{
 }
 
 /* __________NAV */
+
 nav {
     grid-column: 2/12;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    /* border: 2xp solid #D70101; */
+    grid-auto-rows: 60px; 
+    border: solid #D70101;
+    border-width: 0px 3px 3px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #FFFFFF;
 }
 
 nav a {
-    
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 0px 15px;
+    border-left: 3px solid #D70101;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;   
+    color: #000000;
+}
+@media screen and (max-width: 1550px) {
+    nav a {
+        font-size: 14px;}      
 }
 
+@media screen and (max-width: 1400px) {
+    nav a {
+        font-size: 12px;}      
+}
+
+
+nav a:hover {
+    color: #D70101;
+}
+
+nav #menuoption1 {
+    border-style: none;
+}
 
 
 
