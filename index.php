@@ -62,7 +62,8 @@
                 <span>Конкурсы</span>
             </a>
         </nav>
-
+        <br>
+        <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </header>
 
     <main>

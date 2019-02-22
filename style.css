@@ -116,9 +116,7 @@ nav a {
     color: #000000;
 }
 @media screen and (max-width: 1550px) {nav a {font-size: 14px;}}
-
 @media screen and (max-width: 1400px) {nav a {font-size: 12px;}}
-
 
 nav a:hover {
     color: #D70101;
@@ -126,6 +124,10 @@ nav a:hover {
 
 nav #menuoption1 {
     border-style: none;
+}
+
+header #showmenu {
+    grid-column: 6/8;
 }
 
 
