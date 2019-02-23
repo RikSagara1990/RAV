@@ -58,11 +58,10 @@
             <a class="menu">
                 <span>Литература</span>
             </a>
-            <a class="menu">
+            <a class="menu" id="menuoption10">
                 <span>Конкурсы</span>
             </a>
         </nav>
-        <br>
         <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </header>
 

@@ -16,7 +16,7 @@ body{
 }
 
 a{
-    color: #D70101;
+    color: #ff0033;
     text-decoration: none;
     cursor: pointer;
 }
@@ -35,7 +35,7 @@ header #head{
     height: 100px;
     background: url(img/header.svg) repeat-x center 0;
     background-size: cover;
-    border-bottom: 3px solid #D70101;
+    border-bottom: 3px solid #ff0033;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-content: space-around;
@@ -98,7 +98,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-auto-rows: 60px; 
-    border: solid #D70101;
+    border: solid #ff0033;
     border-width: 0px 3px 3px;
     border-radius: 0px 0px 15px 15px;
     background-color: #FFFFFF;
@@ -108,8 +108,8 @@ nav a {
     display: grid;
     align-items: center;
     justify-items: center;
-    padding: 0px 15px;
-    border-left: 3px solid #D70101;
+    border-left: 1.5px solid #ff0033;
+    border-right: 1.5px solid #ff0033;
     text-align: center;
     font-weight: bold;
     font-size: 16px;   
@@ -119,15 +119,24 @@ nav a {
 @media screen and (max-width: 1400px) {nav a {font-size: 12px;}}
 
 nav a:hover {
-    color: #D70101;
+    color: #cc3300;
 }
 
 nav #menuoption1 {
-    border-style: none;
+    border-left-style: none;
+}
+nav #menuoption10 {
+    border-right-style: none;
 }
 
 header #showmenu {
     grid-column: 6/8;
+    justify-self: center;
+}
+
+main {
+    margin-left: 0.78125%;
+    margin-right: 0.78125%;
 }
 
 
