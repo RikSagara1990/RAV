@@ -137,6 +137,9 @@ header #showmenu {
 main {
     margin-left: 0.78125%;
     margin-right: 0.78125%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1,5625%;
 }
 
 

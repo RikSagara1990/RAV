@@ -64,8 +64,9 @@
         </nav>
         <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </header>
-
     <main>
+        <div class="mainborder" id="rightborder"></div>
+        <div class="mainborder" id="leftborder"></div>
     </main>
 
     <footer>
