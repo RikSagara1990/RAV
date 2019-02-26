@@ -134,13 +134,43 @@ header #showmenu {
     justify-self: center;
 }
 
-main {
+/* __________MAIN */
+
+aside {
     margin-left: 0.78125%;
     margin-right: 0.78125%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 1,5625%;
+    grid-gap: 1.5625%;
+    grid-auto-rows: minmax(100px,auto);
 }
+
+main .mainborder{
+    height:100px;
+    background: url(img/frame.svg)repeat-y;
+    background-size: cover;
+}
+
+main #leftborder{grid-column: 1;}
+main #rightborder{grid-column: 12/13;}
+
+main .elementmain{
+    padding: 0.78125%;
+    border: 2px solid #ff0033;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+main #description{
+    grid-column: 2/12;
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+
+
 
 
 
