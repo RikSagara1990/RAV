@@ -28,6 +28,7 @@ header{
     display: grid;
     width:100%;
     grid-template-columns: repeat(12,1fr);
+    position: absolute;
 }
 
 header #head{
@@ -102,6 +103,7 @@ nav {
     border-width: 0px 3px 3px;
     border-radius: 0px 0px 15px 15px;
     background-color: #FFFFFF;
+    z-index:1;
 }
 
 nav a {
@@ -136,7 +138,7 @@ header #showmenu {
 
 /* __________MAIN */
 
-aside {
+main {
     margin-left: 0.78125%;
     margin-right: 0.78125%;
     display: grid;
