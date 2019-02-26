@@ -28,27 +28,22 @@ header{
     display: grid;
     width:100%;
     grid-template-columns: repeat(12,1fr);
-    position: absolute;
-}
-
-header #head{
-    grid-column: 1/13;
     height: 100px;
     background: url(img/header.svg) repeat-x center 0;
     background-size: cover;
-    border-bottom: 3px solid #ff0033;
+    /* border-bottom: 3px solid #ff0033; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-content: space-around;
 }
 
-header #head #logo{
+header #logo{
     grid-column: 6/8;  
-    margin: 15px;
+    margin: 0.78125%;
     display: grid;
 }
 
-header #head #logo span { 
+header #logo span { 
     font-size: 48px;
     font-family: Dorsa;   
     color: #f2f2f2; 
@@ -57,7 +52,7 @@ header #head #logo span {
     align-self: center;
 }
 
-header #head .options{
+header .options{
     display: grid;
     grid-row-gap: 10px;
     grid-auto-rows: 30px;
@@ -65,15 +60,15 @@ header #head .options{
     padding: 15px;   
 }
 
-header #head #user{
+header #user{
     grid-column: 11;
 }
 
-header #head #main{
+header #main{
     grid-column: 12;
 }
 
-header #head .options a {
+header .options a {
     font-size: 14px;
     color: #000000;
     text-shadow: 1px 1px #F2F2F2, 1px -1px #F2F2F2, -1px 1px #F2F2F2, -1px -1px #F2F2F2;
@@ -83,18 +78,25 @@ header #head .options a {
     justify-items:center;
 }
 
-header #head .options img {
+header .options img {
     height: 25px;
-
 }
 
-header #head .options a img:hover{
+header .options a img:hover{
     transform: scale(1.2,1.2);
 }
 
 /* __________NAV */
 
 nav {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    border-top: 3px solid #ff0033;
+    position: fixed;
+    z-index: 1;
+}
+
+ul {
     grid-column: 2/12;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -103,10 +105,9 @@ nav {
     border-width: 0px 3px 3px;
     border-radius: 0px 0px 15px 15px;
     background-color: #FFFFFF;
-    z-index:1;
 }
 
-nav a {
+nav li {
     display: grid;
     align-items: center;
     justify-items: center;
@@ -117,23 +118,27 @@ nav a {
     font-size: 16px;   
     color: #000000;
 }
-@media screen and (max-width: 1550px) {nav a {font-size: 14px;}}
-@media screen and (max-width: 1400px) {nav a {font-size: 12px;}}
+
+nav li a {color: #000000;}
+
+@media screen and (max-width: 1550px) {nav li {font-size: 14px;}}
+@media screen and (max-width: 1400px) {nav li {font-size: 12px;}}
 
 nav a:hover {
     color: #cc3300;
 }
 
-nav #menuoption1 {
+nav ul #menustart {
     border-left-style: none;
 }
-nav #menuoption10 {
+nav ul #menuend {
     border-right-style: none;
 }
 
-header #showmenu {
+nav #showmenu {
     grid-column: 6/8;
     justify-self: center;
+    margin-bottom: 9.41028%;
 }
 
 /* __________MAIN */
@@ -145,6 +150,7 @@ main {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1.5625%;
     grid-auto-rows: minmax(100px,auto);
+    margin-top: 1%;
 }
 
 main .mainborder{
@@ -166,9 +172,8 @@ main .elementmain{
 main #description{
     grid-column: 2/12;
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 15px;
     text-align: justify;
-
 }
 
 
