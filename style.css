@@ -138,7 +138,6 @@ nav ul #menuend {
 nav #showmenu {
     grid-column: 6/8;
     justify-self: center;
-    margin-bottom: 9.41028%;
 }
 
 /* __________MAIN */
@@ -150,17 +149,22 @@ main {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1.5625%;
     grid-auto-rows: minmax(100px,auto);
-    margin-top: 10.28280%;
+    
 }
 
 main .mainborder{
-    height:100px;
-    background: url(img/frame.svg)repeat-y;
-    background-size: cover;
+    background-image: url(img/frame.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 main #leftborder{grid-column: 1;}
 main #rightborder{grid-column: 12/13;}
+
+main section{
+    grid-column: 2/12;
+    margin-top: 10.28280%;
+}
 
 main .elementmain{
     padding: 0.78125%;
