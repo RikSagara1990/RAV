@@ -150,7 +150,7 @@ main {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1.5625%;
     grid-auto-rows: minmax(100px,auto);
-    margin-top: 1%;
+    margin-top: 10.28280%;
 }
 
 main .mainborder{
