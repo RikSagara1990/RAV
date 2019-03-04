@@ -9,6 +9,10 @@
     <title>РАВ</title>
 </head>
 <body>
+    <div id="frame">
+        <div class="mainborder" id="leftborder"></div>
+        <div class="mainborder" id="rightborder"></div>
+    </div>
     <header>
         <a id="logo" href="index.php" title="перейти на главную станицу">
             <span>РАВ</span>
@@ -29,10 +33,6 @@
             </a>
         </div>
     </header>
-    <div id="frame">
-        <div class="mainborder" id="leftborder"></div>
-        <div class="mainborder" id="rightborder"></div>
-    </div>
     <nav>
         <ul>
             <li id="menustart"><a class="menu">Эпос Масторава</a></li>
@@ -49,11 +49,29 @@
         <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </nav>
     <main>
-        <section div class="elementmain" id="description">
+        <section class="mainblock" id="description">
             <p>Полное описание сайта Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </section>
+
+        <h2 class="elementmain">Toп неделя</h2>
+        <section class="mainblock" id="topforweek"> 
+            <article class="toparticle">
+                <header>
+                    <h3>Наименование прозы</h3>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis. Cum sociis natoque penatibus et magnis. penatibus et magnis.Proin gravida dolor sit amet lacus accumsan et ...</p>
+                <footer class="footeracricle">
+                    <a class="theme">#Тематика</a>
+                    <a class="like">
+                        <img src="img/like.svg" alt="Нравится">
+                        <p>13</p>
+                    <a class="author">Петя Васечкин</a> 
+                </footer>
+            <article>    
         </section>
     </main>
     <footer>
+        <a>Написать нам!</a>
     </footer>
 </body>
 </html>

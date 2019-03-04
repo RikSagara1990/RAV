@@ -22,70 +22,6 @@ a{
     cursor: pointer;
 }
 
-
-/* __________HEADER */
-
-header{
-    display: grid;
-    width:100%;
-    grid-template-columns: repeat(12,1fr);
-    height: 100px;
-    background: url(img/header.svg) repeat-x center 0;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    justify-content: space-around;
-}
-
-header #logo{
-    grid-column: 6/8;  
-    margin: 0.78125%;
-    display: grid;
-}
-
-header #logo span { 
-    font-size: 48px;
-    font-family: Dorsa;   
-    color: #f2f2f2; 
-    text-shadow: 2px 2px #D70101, 2px -2px #D70101, -2px 2px #D70101, -2px -2px #D70101;
-    justify-self: center;
-    align-self: center;
-}
-
-header .options{
-    display: grid;
-    grid-row-gap: 10px;
-    grid-auto-rows: 30px;
-    justify-items: stretch; 
-    padding: 15px;   
-}
-
-header #user{
-    grid-column: 11;
-}
-
-header #main{
-    grid-column: 12;
-}
-
-header .options a {
-    font-size: 14px;
-    color: #000000;
-    text-shadow: 1px 1px #F2F2F2, 1px -1px #F2F2F2, -1px 1px #F2F2F2, -1px -1px #F2F2F2;
-    display: grid;
-    grid-template-columns: 80% 20%;
-    align-items:center;
-    justify-items:center;
-}
-
-header .options img {
-    height: 25px;
-}
-
-header .options a img:hover{
-    transform: scale(1.2,1.2);
-}
-
 /* __________FRAME */
 
 #frame {
@@ -110,9 +46,72 @@ header .options a img:hover{
 #frame #leftborder {grid-column: 1;}
 #frame #rightborder {grid-column: 12/13;}
 
+/* __________HEADER */
+
+body>header {
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(12,1fr);
+    height: 100px;
+    background: url(img/header.svg) repeat-x center 0;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: space-around;
+}
+
+body>header #logo{
+    grid-column: 6/8;  
+    margin: 0.78125%;
+    display: grid;
+}
+
+body>header #logo span { 
+    font-size: 48px;
+    font-family: Dorsa;   
+    color: #f2f2f2; 
+    text-shadow: 2px 2px #D70101, 2px -2px #D70101, -2px 2px #D70101, -2px -2px #D70101;
+    justify-self: center;
+    align-self: center;
+}
+
+body>header .options{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-auto-rows: 30px;
+    justify-items: stretch; 
+    padding: 15px;   
+}
+
+body>header #user{
+    grid-column: 11;
+}
+
+body>header #main{
+    grid-column: 12;
+}
+
+body>header .options a {
+    font-size: 14px;
+    color: #000000;
+    text-shadow: 1px 1px #F2F2F2, 1px -1px #F2F2F2, -1px 1px #F2F2F2, -1px -1px #F2F2F2;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items:center;
+    justify-items:center;
+}
+
+body>header .options img {
+    height: 25px;
+}
+
+body>header .options a img:hover{
+    transform: scale(1.2,1.2);
+}
+
 /* __________NAV */
 
-nav {
+body>nav {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     border-top: 3px solid #ff0033;
@@ -120,7 +119,7 @@ nav {
     z-index: 1; */
 }
 
-ul {
+body>nav ul {
     grid-column: 2/12;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -131,7 +130,7 @@ ul {
     background-color: #FFFFFF;
 }
 
-nav li {
+body>nav li {
     display: grid;
     align-items: center;
     justify-items: center;
@@ -143,23 +142,23 @@ nav li {
     color: #000000;
 }
 
-nav li a {color: #000000;}
+body>nav li a {color: #000000;}
 
 @media screen and (max-width: 1550px) {nav li {font-size: 14px;}}
 @media screen and (max-width: 1400px) {nav li {font-size: 12px;}}
 
-nav a:hover {
+body>nav a:hover {
     color: #cc3300;
 }
 
-nav ul #menustart {
+body>nav ul #menustart {
     border-left-style: none;
 }
-nav ul #menuend {
+body>nav ul #menuend {
     border-right-style: none;
 }
 
-nav #showmenu {
+body>nav #showmenu {
     grid-column: 6/8;
     justify-self: center;
 }
@@ -177,11 +176,11 @@ main {
     
 }
 
-main section{
+main section #description, main h2{
     grid-column: 2/12;
 }
 
-main .elementmain{
+main .mainblock{
     padding: 0.78125%;
     border: 2px solid #ff0033;
     border-radius: 5px;
@@ -195,6 +194,28 @@ main #description{
     text-align: justify;
 }
 
+main h2{
+    text-align:center;
+}
+
+/* __________FOOTER */
+
+body>footer {
+    height: 100px;
+    width: 100%;
+    background: url(img/footer.svg);
+    display:grid;
+    justify-items: center;
+    align-items: center;
+}
+
+body>footer a {
+    margin-top: 2.60579%;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
 
 
 
