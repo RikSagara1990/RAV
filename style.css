@@ -86,14 +86,38 @@ header .options a img:hover{
     transform: scale(1.2,1.2);
 }
 
+/* __________FRAME */
+
+#frame {
+    width: 98.4375%;
+    padding-left: 0.78125%;
+    padding-right: 0.78125%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 1.5625%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+
+#frame .mainborder {
+    background-image: url(img/frame.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    
+}
+
+#frame #leftborder {grid-column: 1;}
+#frame #rightborder {grid-column: 12/13;}
+
 /* __________NAV */
 
 nav {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     border-top: 3px solid #ff0033;
-    position: fixed;
-    z-index: 1;
+    /* position: fixed;
+    z-index: 1; */
 }
 
 ul {
@@ -139,30 +163,6 @@ nav #showmenu {
     grid-column: 6/8;
     justify-self: center;
 }
-/* __________ASIDE */
-
-#frame {
-    width: 98.4375%;
-    padding-left: 0.78125%;
-    padding-right: 0.78125%;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-gap: 1.5625%;
-    position: absolute;
-    z-index: 0;
-    height: 100%;
-}
-
-#frame .mainborder {
-    background-image: url(img/frame.png);
-    background-repeat: repeat-y;
-    background-size: 100%;
-    
-}
-
-#frame #leftborder {grid-column: 1;}
-#frame #rightborder {grid-column: 12/13;}
-
 
 /* __________MAIN */
 
@@ -173,12 +173,12 @@ main {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1.5625%;
     grid-auto-rows: minmax(100px,auto);
+    margin-top: 1.56347%;
     
 }
 
 main section{
     grid-column: 2/12;
-    margin-top: 10.28280%;
 }
 
 main .elementmain{
