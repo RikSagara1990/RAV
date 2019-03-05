@@ -197,6 +197,10 @@ main>h2{
     text-align:center;
 }
 
+main>#topforweek{
+    grid-column: 3/11;
+}
+
 /* __________FOOTER */
 
 body>footer {
