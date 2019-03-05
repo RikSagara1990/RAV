@@ -170,31 +170,30 @@ main {
     margin-right: 0.78125%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 1.5625%;
-    grid-auto-rows: minmax(100px,auto);
-    margin-top: 1.56347%;
-    
+    grid-column-gap: 1.5625%;
+    grid-row-gap: 30px;
+    margin-top: 1.56347%;  
 }
 
-main section #description, main h2{
+main>.mainblock{
     grid-column: 2/12;
+    padding: 0.78125%;
 }
 
-main .mainblock{
-    padding: 0.78125%;
+main .border{
     border: 2px solid #ff0033;
     border-radius: 5px;
     background-color: #FFFFFF;
 }
 
-main #description{
-    grid-column: 2/12;
+main>#description{
     font-family: Roboto;
     font-size: 15px;
     text-align: justify;
 }
 
-main h2{
+main>h2{
+    display:grid;
     text-align:center;
 }
 
