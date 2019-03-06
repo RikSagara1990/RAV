@@ -16,12 +16,85 @@ body{
     position: relative;
 }
 
+p{font-family: Roboto;}
+
 a{
     color: #ff0033;
     text-decoration: none;
     cursor: pointer;
 }
 
+/* __________ALL TEXT */
+/* 1)Сылки в меню
+2)главные заголовки
+3)Заголовки всех статей
+4)текст описание страницы
+5)Текст описание статей */
+.headline_a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.headline_section{
+    font-size: 15px;
+}
+
+.headline_article{
+
+}
+
+.text_description{
+
+}
+
+.text_article_description{
+
+}
+
+@media screen and (max-width: 1550px) {
+    .headline_a{
+        font-size: 14px;
+    }
+    
+    .headline_section{
+    
+    }
+    
+    .headline_article{
+    
+    }
+    
+    .text_description{
+    
+    }
+    
+    .text_article_description{
+    
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .headline_a{
+        font-size: 12px;
+    }
+    
+    .headline_section{
+    
+    }
+    
+    .headline_article{
+    
+    }
+    
+    .text_description{
+    
+    }
+    
+    .text_article_description{
+    
+    }
+}
+/* Описать: общий отступ сетки (30), отписать отступ от блоков?(30), описать падинг. */
 /* __________FRAME */
 
 #frame {
@@ -136,16 +209,11 @@ body>nav li {
     justify-items: center;
     border-left: 1.5px solid #ff0033;
     border-right: 1.5px solid #ff0033;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;   
+    text-align: center; 
     color: #000000;
 }
 
 body>nav li a {color: #000000;}
-
-@media screen and (max-width: 1550px) {nav li {font-size: 14px;}}
-@media screen and (max-width: 1400px) {nav li {font-size: 12px;}}
 
 body>nav a:hover {
     color: #cc3300;
@@ -177,29 +245,40 @@ main {
 
 main>.mainblock{
     grid-column: 2/12;
-    padding: 0.78125%;
 }
 
 main .border{
     border: 2px solid #ff0033;
     border-radius: 5px;
+    /* padding: 0.78125%; */
+    padding: 15px;
     background-color: #FFFFFF;
 }
 
 main>#description{
-    font-family: Roboto;
-    font-size: 15px;
     text-align: justify;
 }
 
-main>h2{
-    display:grid;
-    text-align:center;
-}
+/* __________MAIN_topforweek */
 
 main>#topforweek{
-    grid-column: 3/11;
+    grid-column: 4/10;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3.2%;
+    grid-row-gap: 30px;
 }
+
+main>#topforweek>h2{
+    display:grid;
+    text-align:center;
+    grid-column: 1/4;
+}
+
+main>#topforweek>.toparticle{
+    
+}
+
 
 /* __________FOOTER */
 

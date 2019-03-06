@@ -35,16 +35,16 @@
     </header>
     <nav>
         <ul>
-            <li id="menustart"><a class="menu">Эпос Масторава</a></li>
-            <li><a class="menu">Корнеслов</a></li>
-            <li><a class="menu">История</a></li>
-            <li><a class="menu">Археология</a></li>
-            <li><a class="menu">Этнография Традиции Обряды</a></li>
-            <li><a class="menu">Нацинальные костюмы</a></li>
-            <li><a class="menu">Прикладное искусство</a></li>
-            <li><a class="menu">Изобразительное искусство</a></li>
-            <li><a class="menu">Литература</a></li>
-            <li id="menuend"><a class="menu">Конкурсы</a></li> 
+            <li id="menustart"><a class="menu headline_a">Эпос Масторава</a></li>
+            <li><a class="menu headline_a">Корнеслов</a></li>
+            <li><a class="menu headline_a">История</a></li>
+            <li><a class="menu headline_a">Археология</a></li>
+            <li><a class="menu headline_a">Этнография Традиции Обряды</a></li>
+            <li><a class="menu headline_a">Нацинальные костюмы</a></li>
+            <li><a class="menu headline_a">Прикладное искусство</a></li>
+            <li><a class="menu headline_a">Изобразительное искусство</a></li>
+            <li><a class="menu headline_a">Литература</a></li>
+            <li id="menuend"><a class="menu headline_a">Конкурсы</a></li> 
         </ul>
         <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </nav>
@@ -53,11 +53,11 @@
             <p>Полное описание сайта Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </section>
 
+        <section class="mainblock" id="topforweek"> 
         <h2 class="mainblock">Toп недели</h2>
-        <section class="mainblock border" id="topforweek"> 
-            <article class="toparticle">
+            <article class="toparticle border">
                 <header>
-                    <h3>Наименование прозы</h3>
+                    <h3 class="headline_section">Наименование прозы</h3>
                 </header>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis. Cum sociis natoque penatibus et magnis. penatibus et magnis.Proin gravida dolor sit amet lacus accumsan et ...</p>
                 <footer class="footeracricle">
