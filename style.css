@@ -29,72 +29,43 @@ a{
 2)главные заголовки
 3)Заголовки всех статей
 4)текст описание страницы
-5)Текст описание статей */
-.headline_a{
-    font-size: 16px;
-    font-weight: bold;
+5)Текст описание статей
+6)Текст в футаре статей
+7)горизонтальные отсупы сетки 
+8)весь отступ сетки
+9)общий padding*/
+
+.headline_a{font-size: 16px;font-weight: bold;}
+.headline_section{font-size: 18px;}
+.headline_article{font-size: 14px;font-weight: bold;text-decoration-line: underline;}
+.text_description{font-size: 14px;}
+.text_article_description{font-size: 13px;}
+.text_article_fotter{font-size: 10px; color: red;}
+.grid_row_gap{grid-row-gap: 30px;}
+.grig_gap{grid-gap:30px;}
+.padding_block{padding:15px;}
+
+@media all and (max-width: 1550px) {
+    .headline_a{font-size: 14px;}
+    .headline_section{font-size: 16px;}
+    .headline_article{font-size: 12px;}
+    .text_description{font-size: 12px;}
+    .text_article_description{font-size: 11px;}
+    .text_article_fotter{font-size: 8px;}
+    .grid_row_gap{grid-row-gap: 26px;}
 }
 
-.headline_section{
-    font-size: 15px;
+@media all and (max-width: 1400px) {
+    .headline_a{font-size: 12px;}
+    .headline_section{font-size: 14px;}
+    .headline_article{font-size: 10px;}
+    .text_description{font-size: 10px;}
+    .text_article_description{font-size: 9px;}
+    .text_article_fotter{font-size: 6px;}
+    .grid_row_gap{grid-row-gap: 22px;}
 }
 
-.headline_article{
 
-}
-
-.text_description{
-
-}
-
-.text_article_description{
-
-}
-
-@media screen and (max-width: 1550px) {
-    .headline_a{
-        font-size: 14px;
-    }
-    
-    .headline_section{
-    
-    }
-    
-    .headline_article{
-    
-    }
-    
-    .text_description{
-    
-    }
-    
-    .text_article_description{
-    
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .headline_a{
-        font-size: 12px;
-    }
-    
-    .headline_section{
-    
-    }
-    
-    .headline_article{
-    
-    }
-    
-    .text_description{
-    
-    }
-    
-    .text_article_description{
-    
-    }
-}
-/* Описать: общий отступ сетки (30), отписать отступ от блоков?(30), описать падинг. */
 /* __________FRAME */
 
 #frame {
@@ -239,7 +210,6 @@ main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 1.5625%;
-    grid-row-gap: 30px;
     margin-top: 1.56347%;  
 }
 
@@ -250,10 +220,14 @@ main>.mainblock{
 main .border{
     border: 2px solid #ff0033;
     border-radius: 5px;
-    /* padding: 0.78125%; */
     padding: 15px;
     background-color: #FFFFFF;
 }
+
+@media all and (max-width: 1550px) {main .border{padding: 14px;}}
+
+@media all and (max-width: 1400px) {main .border{padding: 13px;}}
+
 
 main>#description{
     text-align: justify;
@@ -266,7 +240,6 @@ main>#topforweek{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 3.2%;
-    grid-row-gap: 30px;
 }
 
 main>#topforweek>h2{
@@ -298,8 +271,6 @@ body>footer a {
     font-weight: bold;
     text-decoration-line: underline;
 }
-
-
 
 
 

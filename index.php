@@ -48,24 +48,24 @@
         </ul>
         <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </nav>
-    <main>
-        <section class="mainblock border" id="description">
+    <main class="grid_row_gap">
+        <section class="mainblock border text_description padding_block" id="description">
             <p>Полное описание сайта Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </section>
 
-        <section class="mainblock" id="topforweek"> 
-        <h2 class="mainblock">Toп недели</h2>
+        <section class="mainblock grid_row_gap" id="topforweek"> 
+        <h2 class="mainblock headline_section">Toп недели</h2>
             <article class="toparticle border">
                 <header>
-                    <h3 class="headline_section">Наименование прозы</h3>
+                    <h3 class="headline_article">Наименование прозы</h3>
                 </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis. Cum sociis natoque penatibus et magnis. penatibus et magnis.Proin gravida dolor sit amet lacus accumsan et ...</p>
+                <p class="text_article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis. Cum sociis natoque penatibus et magnis. penatibus et magnis.Proin gravida dolor sit amet lacus accumsan et ...</p>
                 <footer class="footeracricle">
-                    <a class="theme">#Тематика</a>
-                    <a class="like">
+                    <a class="theme text_article_fotter">#Тематика</a>
+                    <a class="like text_article_fotter">
                         <img src="img/like.svg" alt="Нравится">
                         <p>13</p>
-                    <a class="author">Петя Васечкин</a> 
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer>
             <article>    
         </section>
