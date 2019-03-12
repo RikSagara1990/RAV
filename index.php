@@ -53,21 +53,21 @@
             <p>Полное описание сайта Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
         </section>
 
-        <section class="mainblock grid_row_gap" id="topforweek"> 
-        <h2 class="mainblock headline_section">Toп недели</h2>
-            <article class="toparticle border">
-                <header>
-                    <h3 class="headline_article">Наименование прозы</h3>
-                </header>
-                <p class="text_article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis. Cum sociis natoque penatibus et magnis. penatibus et magnis.Proin gravida dolor sit amet lacus accumsan et ...</p>
-                <footer class="footeracricle">
-                    <a class="theme text_article_fotter">#Тематика</a>
-                    <a class="like text_article_fotter">
-                        <img src="img/like.svg" alt="Нравится">
-                        <p>13</p>
-                    <a class="author text_article_fotter">Петя Васечкин</a> 
-                </footer>
-            <article>    
+        <section class="mainblock grid_row_gap mainblock_withGrid" id="topforweek"> 
+            <h2 class="headline_section">Toп недели</h2>
+                <article class="toparticle border block_little">
+                    <header>
+                        <h3 class="headline_article">Наименование прозы</h3>
+                    </header>
+                    <p class="text_article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis. Cum sociis natoque penatibus et magnis. penatibus et magnis.Proin gravida dolor sit amet lacus accumsan et ...</p>
+                    <footer class="footeracricle">
+                        <a class="theme text_article_fotter">#Тематика</a>
+                        <a class="like text_article_fotter">
+                            <img src="img/like.svg" alt="Нравится">
+                            <p>13</p>
+                        <a class="author text_article_fotter">Петя Васечкин</a> 
+                    </footer>
+                <article>    
         </section>
     </main>
     <footer>

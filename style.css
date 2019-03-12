@@ -234,24 +234,23 @@ main>#description{
     text-align: justify;
 }
 
-/* __________MAIN_topforweek */
-
-main>#topforweek{
-    grid-column: 4/10;
+main .mainblock_withGrid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 3.2%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap:1.9%;
+    grid-auto-columns: minmax(100px, auto);
 }
 
-main>#topforweek>h2{
-    display:grid;
-    text-align:center;
-    grid-column: 1/4;
+main>section>h2{
+    grid-column: 1/11;
+    text-align: center;
 }
 
-main>#topforweek>.toparticle{
-    
+.block_little{
+    grid-column-end: span 2;
 }
+.block_average{}
+.block_big{}
 
 
 /* __________FOOTER */
