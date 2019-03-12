@@ -25,7 +25,8 @@ a{
 }
 
 /* __________ALL TEXT */
-/* 1)Сылки в меню
+/* 
+1)Сылки в меню
 2)главные заголовки
 3)Заголовки всех статей
 4)текст описание страницы
@@ -51,17 +52,17 @@ a{
     .headline_article{font-size: 12px;}
     .text_description{font-size: 12px;}
     .text_article_description{font-size: 11px;}
-    .text_article_fotter{font-size: 8px;}
+    .text_article_fotter{font-size: 10px;}
     .grid_row_gap{grid-row-gap: 26px;}
 }
 
 @media all and (max-width: 1400px) {
     .headline_a{font-size: 12px;}
-    .headline_section{font-size: 14px;}
-    .headline_article{font-size: 10px;}
-    .text_description{font-size: 10px;}
-    .text_article_description{font-size: 9px;}
-    .text_article_fotter{font-size: 6px;}
+    .headline_section{font-size: 16px;}
+    .headline_article{font-size: 12px;}
+    .text_description{font-size: 12px;}
+    .text_article_description{font-size: 11px;}
+    .text_article_fotter{font-size: 10px;}
     .grid_row_gap{grid-row-gap: 22px;}
 }
 
