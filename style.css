@@ -214,8 +214,19 @@ main {
     margin-top: 1.56347%;  
 }
 
-main>.mainblock{
+main>.mainblock10{
     grid-column: 2/12;
+}
+main>.mainblock8{
+    grid-column: 3/11;
+}
+main>.mainblock6{
+    grid-column: 4/10;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: 180px;
+    grid-column-gap: 3.2%;
 }
 
 main .border{
@@ -234,20 +245,14 @@ main>#description{
     text-align: justify;
 }
 
-main .mainblock_withGrid{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-column-gap:1.9%;
-    grid-auto-columns: minmax(100px, auto);
-}
-
-main>section>h2{
-    grid-column: 1/11;
+#topforweek>h2{
+    grid-column-end: span 6;
     text-align: center;
 }
 
 .block_little{
     grid-column-end: span 2;
+    
 }
 .block_average{}
 .block_big{}
