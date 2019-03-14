@@ -252,8 +252,25 @@ main>#description{
 
 .block_little{
     grid-column-end: span 2;
+    grid-row-end: span 1;
+    display: grid;
+    /* grid-template-columns: 44.3% 11.4% 44.3%; */
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
     
 }
+/* 
+.block_little header{
+    grid-area: header;
+}
+.block_little p{
+    grid-area: text_article;
+}
+
+.block_little footer theme{
+    grid-area: theme;
+} */
+
 .block_average{}
 .block_big{}
 
