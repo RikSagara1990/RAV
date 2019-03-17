@@ -56,20 +56,21 @@
         <section class="mainblock6 grid_row_gap" id="topforweek"> 
             <h2 class="headline_section">Toп недели</h2>
                 <article class="toparticle border block_little">
+                    <!-- <P>sd</P>
                     <P>sd</P>
-                    <P>sd</P>
-                    <P>sd</P>
-                    <!-- <header>
+                    <P>sd</P> -->
+                    <header>
                         <h3 class="headline_article">Наименование прозы</h3>
                     </header>
-                    <p class="text_article_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis. Cum sociis natoque penatibus et magnis. penatibus et magnis.Proin gravida dolor sit amet lacus accumsan et ...</p>
+                    <p class="text_article_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                     <footer class="footeracricle">
                         <a class="theme text_article_fotter">#Тематика</a>
                         <a class="like text_article_fotter">
                             <img src="img/like.svg" alt="Нравится">
-                            <p>13</p>
+                            <span>13</span>
+                        </a>
                         <a class="author text_article_fotter">Петя Васечкин</a> 
-                    </footer> -->
+                    </footer>
                 <article>    
         </section>
     </main>
