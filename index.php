@@ -17,7 +17,7 @@
         <a id="logo" href="index.php" title="перейти на главную станицу">
             <span>РАВ</span>
         </a>
-        <div class="options" id="user">
+        <div class="options padding_block" id="user">
             <a id="adddocument">
                 <span>Создать</span>
                 <img src="img/adddocument.svg" alt="Создать">
@@ -55,14 +55,11 @@
 
         <section class="mainblock6 grid_row_gap" id="topforweek"> 
             <h2 class="headline_section">Toп недели</h2>
-                <article class="toparticle border block_little">
-                    <!-- <P>sd</P>
-                    <P>sd</P>
-                    <P>sd</P> -->
+                <article class="toparticle border block_little padding_block">
                     <header>
                         <h3 class="headline_article">Наименование прозы</h3>
                     </header>
-                    <p class="text_article_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
+                    <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                     <footer class="footeracricle">
                         <a class="theme text_article_fotter">#Тематика</a>
                         <a class="like text_article_fotter">
@@ -71,7 +68,73 @@
                         </a>
                         <a class="author text_article_fotter">Петя Васечкин</a> 
                     </footer>
-                <article>    
+                </article> 
+                <article class="toparticle border block_little padding_block">
+                    <img class="star" src="img\star.svg">
+                    <header>
+                        <h3 class="headline_article">Наименование прозы</h3>
+                    </header>
+                    <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
+                    <footer class="footeracricle">
+                        <a class="theme text_article_fotter">#Тематика</a>
+                        <a class="like text_article_fotter">
+                            <img src="img/like.svg" alt="Нравится">
+                            <span>13</span>
+                        </a>
+                        <a class="author text_article_fotter">Петя Васечкин</a> 
+                    </footer>
+                </article> 
+                <article class="toparticle border block_little padding_block">
+                    <img class="star" src="img\star.svg">
+                    <header>
+                        <h3 class="headline_article">Наименование прозы</h3>
+                    </header>
+                    <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
+                    <footer class="footeracricle">
+                        <a class="theme text_article_fotter">#Тематика</a>
+                        <a class="like text_article_fotter">
+                            <img src="img/like.svg" alt="Нравится">
+                            <span>13</span>
+                        </a>
+                        <a class="author text_article_fotter">Петя Васечкин</a> 
+                    </footer>
+                </article> 
+        </section>
+        <section class="mainblock8 border padding_block" id="filter">
+            <!-- <span>Тип</span> -->
+            <!-- <li>
+                <a><img src="img/left.svg"></a>
+                <a>Проза</a>
+                <a>Перевод</a>
+                <a>Поэзия</a>
+                <a>Живопись</a>
+                <a>Скульптура</a>
+                <a><img src="img/right.svg"></a>
+            </li>
+            <span>Тема</span>
+            <li>
+                <a><img src="img/left.svg"></a>
+                <a>Перечисление тематик</a>
+                <a>Перечисление тематик</a>
+                <a>Перечисление тематик</a>
+                <a><img src="img/right.svg"></a>
+            </li>
+            <span>Автор</span>
+            <li>
+                <a><img src="img/left.svg"></a>
+                <a>Перечисление тематик</a>
+                <a>Перечисление тематик</a>
+                <a>Перечисление тематик</a>
+                <a><img src="img/right.svg"></a>
+            </li>
+            <span>Сортировка</span>
+            <li>
+                <a><img src="img/left.svg"></a>
+                <a>Дата</a>
+                <a>Топ</a>
+                <a>Самые обсуждаемые</a>
+                <a><img src="img/right.svg"></a>
+            </li> -->
         </section>
     </main>
     <footer>
