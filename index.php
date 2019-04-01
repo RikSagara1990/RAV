@@ -18,18 +18,18 @@
             <span>РАВ</span>
         </a>
         <div class="options padding_block" id="user">
-            <a id="adddocument">
+            <a class="transformscale" id="adddocument">
                 <span>Создать</span>
-                <img src="img/adddocument.svg" alt="Создать">
+                <img class="navicon" src="img/adddocument.svg" alt="Создать">
             </a>
         </div>
-        <div class="options" id="main">
-            <a id="search">
+        <div class="options padding_block" id="main">
+            <a class="transformscale" id="search">
                 <span>Поиск</span>
-                <img src="img/iconsearch.svg" alt="Поиск"> 
-            <a id="enterinprofile">
+                <img class="navicon" src="img/iconsearch.svg" alt="Поиск"> 
+            <a class="transformscale" id="enterinprofile">
                 <span>Вход</span>
-                <img src="img/iconenterprofile.svg" alt="Вход в личный кабинет">
+                <img class="navicon" src="img/iconenterprofile.svg" alt="Вход в личный кабинет">
             </a>
         </div>
     </header>
@@ -57,12 +57,12 @@
             <h2 class="headline_section">Toп недели</h2>
                 <article class="toparticle border block_little padding_block">
                     <header>
-                        <h3 class="headline_article">Наименование прозы</h3>
+                        <a class="headline_article">Наименование прозы</a>
                     </header>
                     <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                     <footer class="footeracricle">
                         <a class="theme text_article_fotter">#Тематика</a>
-                        <a class="like text_article_fotter">
+                        <a class="like text_article_fotter transformscale">
                             <img src="img/like.svg" alt="Нравится">
                             <span>13</span>
                         </a>
@@ -72,12 +72,12 @@
                 <article class="toparticle border block_little padding_block">
                     <img class="star" src="img\star.svg">
                     <header>
-                        <h3 class="headline_article">Наименование прозы</h3>
+                        <a class="headline_article">Наименование прозы</a>
                     </header>
                     <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                     <footer class="footeracricle">
                         <a class="theme text_article_fotter">#Тематика</a>
-                        <a class="like text_article_fotter">
+                        <a class="like text_article_fotter transformscale">
                             <img src="img/like.svg" alt="Нравится">
                             <span>13</span>
                         </a>
@@ -87,12 +87,12 @@
                 <article class="toparticle border block_little padding_block">
                     <img class="star" src="img\star.svg">
                     <header>
-                        <h3 class="headline_article">Наименование прозы</h3>
+                        <a class="headline_article">Наименование прозы</a>
                     </header>
                     <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                     <footer class="footeracricle">
                         <a class="theme text_article_fotter">#Тематика</a>
-                        <a class="like text_article_fotter">
+                        <a class="like text_article_fotter transformscale">
                             <img src="img/like.svg" alt="Нравится">
                             <span>13</span>
                         </a>
@@ -100,41 +100,41 @@
                     </footer>
                 </article> 
         </section>
-        <section class="mainblock8 border padding_block" id="filter">
-            <!-- <span>Тип</span> -->
-            <!-- <li>
-                <a><img src="img/left.svg"></a>
-                <a>Проза</a>
-                <a>Перевод</a>
-                <a>Поэзия</a>
-                <a>Живопись</a>
-                <a>Скульптура</a>
-                <a><img src="img/right.svg"></a>
+        <section class="mainblock8 border padding_block  headline_a grid_gap05" id="filter">
+            <span>Тип</span>
+            <li>
+                <a><img class="littleicon transformscale" src="img/left.svg"></a>
+                <a class="margin05">Проза</a>
+                <a class="margin05">Перевод</a>
+                <a class="margin05">Поэзия</a>
+                <a class="margin05">Живопись</a>
+                <a class="margin05">Скульптура</a>
+                <a><img class="littleicon right transformscale" src="img/right.svg"></a>
             </li>
             <span>Тема</span>
             <li>
-                <a><img src="img/left.svg"></a>
-                <a>Перечисление тематик</a>
-                <a>Перечисление тематик</a>
-                <a>Перечисление тематик</a>
-                <a><img src="img/right.svg"></a>
+                <a><img class="littleicon transformscale" src="img/left.svg"></a>
+                <a class="margin05">Перечисление тематик</a>
+                <a class="margin05">Перечисление тематик</a>
+                <a class="margin05">Перечисление тематик</a>
+                <a><img class="littleicon right transformscale" src="img/right.svg"></a>
             </li>
             <span>Автор</span>
             <li>
-                <a><img src="img/left.svg"></a>
-                <a>Перечисление тематик</a>
-                <a>Перечисление тематик</a>
-                <a>Перечисление тематик</a>
-                <a><img src="img/right.svg"></a>
+                <a><img class="littleicon transformscale" src="img/left.svg"></a>
+                <a class="margin05">Автор</a>
+                <a class="margin05">Автор2</a>
+                <a class="margin05">Автор1</a>
+                <a><img class="littleicon right transformscale" src="img/right.svg"></a>
             </li>
             <span>Сортировка</span>
             <li>
-                <a><img src="img/left.svg"></a>
-                <a>Дата</a>
-                <a>Топ</a>
-                <a>Самые обсуждаемые</a>
-                <a><img src="img/right.svg"></a>
-            </li> -->
+                <a><img class="littleicon transformscale" src="img/left.svg"></a>
+                <a class="margin05">Дата</a>
+                <a class="margin05">Топ</a>
+                <a class="margin05">Самые обсуждаемые</a>
+                <a><img class="littleicon right transformscale" src="img/right.svg"></a>
+            </li>
         </section>
     </main>
     <footer>
