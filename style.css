@@ -56,6 +56,7 @@ a:hover{
 .navicon{width:25px;}
 .margin05{margin:15px;}
 .transformscale:hover{transform: scale(1.2,1.2);}
+.gridArow{grid-auto-rows: 180px;}
 
 @media all and (max-width: 1550px) {
     .headline_a{font-size: 14px;}
@@ -232,7 +233,7 @@ main>.mainblock8{
     grid-column: 3/11;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-column-gap: 2%;
+    grid-template-rows: auto;
     grid-column-gap: 2.4%;
 }
 main>.mainblock6{
@@ -240,7 +241,6 @@ main>.mainblock6{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
-    grid-auto-rows: 180px;
     grid-column-gap: 3.2%;
 }
 
@@ -255,6 +255,7 @@ main .border{
 
 @media all and (max-width: 1400px) {main .border{padding: 13px;}}
 
+/* __________ALL BLOCKS */
 
 main>#description{
     text-align: justify;
@@ -263,36 +264,6 @@ main>#description{
 #topforweek>h2{
     grid-column-end: span 6;
     text-align: center;
-}
-
-.block_little{
-    grid-column-end: span 2;
-    grid-row-end: span 1;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto 1fr auto;
-}
-
-.block_little header{
-    text-align: center;
-}
-
-.block_little footer{
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    
-} 
-.block_little footer *{
-    align-self: center;
-    vertical-align: middle;
-}
-
-.block_little footer .author {
-    text-align:right;
-}
-
-.block_little footer .like *{
-    color: #000000;
 }
 
 .toparticle{
@@ -305,8 +276,51 @@ main>#description{
     top: -15px;
     left: -15px;
 }
+
+.block header{
+    text-align: center;
+}
+
+.block footer{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    
+} 
+.block footer *{
+    align-self: center;
+    vertical-align: middle;
+}
+
+.block footer .author {
+    text-align:right;
+}
+
+.block footer .like *{
+    color: #000000;
+}
+
+.block_little{
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
+}
+
 .block_average{}
-.block_big{}
+
+.block_big{
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
+}
+
+.block_big .imguser{
+    width: 100%;
+    height: 100%;
+}
 
 /* __________FILTER */
 
