@@ -34,29 +34,34 @@ a:hover{
 1)Сылки в меню
 2)главные заголовки
 3)Заголовки всех статей
-4)текст описание страницы
-5)Текст описание статей
-6)Текст в футаре статей
-7)горизонтальные отсупы сетки 
-8)весь отступ сетки
-9)общий padding*/
+4)Заголовки комментариев
+5)текст описание страницы
+6)Текст описание статей
+7)Текст в футаре статей
+8)горизонтальные отсупы сетки 
+9)весь отступ сетки
+10)общий padding*/
 
 .headline_a{font-size: 16px;font-weight: bold;}
 .headline_section{font-size: 18px;}
 .headline_article{font-size: 14px;font-weight: bold;text-decoration-line: underline; color: #000000;}
     .headline_article:hover{ color:red;}
+.headline_comment{font-size: 12px;font-weight: bold;text-decoration-line: underline; color: #000000;}
+    .headline_comment:hover{ color:red;}
 .text_description{font-size: 14px;}
-.text_article_description{font-size: 13px;}
+.text_article_description{font-size: 13px; text-align: justify;}
 .text_article_fotter{font-size: 10px; color: red;}
 .grid_row_gap{grid-row-gap: 30px;}
 .grig_gap{grid-gap:30px;}
 .grid_gap05{grid-gap:15px;}
 .padding_block{padding:15px;}
 .littleicon{width:19px;}
+.averageicon{width:30px;}
 .navicon{width:25px;}
 .margin05{margin:15px;}
 .transformscale:hover{transform: scale(1.2,1.2);}
 .gridArow{grid-auto-rows: 180px;}
+.gridCommentrow{grid-auto-rows: 120px;}
 
 @media all and (max-width: 1550px) {
     .headline_a{font-size: 14px;}
@@ -250,6 +255,11 @@ main>.mainblock6{
     grid-column-gap: 3.2%;
 }
 
+main>.mainblock6 h2{
+    grid-column-end: span 6;
+    text-align: center;
+}
+
 main .border{
     border: 2px solid #ff0033;
     border-radius: 5px;
@@ -280,8 +290,20 @@ main>#description{
     left: -15px;
 }
 
-.mainwindow{
+#mainwindow{
     grid-auto-flow: row dense;
+    position: relative;
+}
+#mainwindow .navigation_mainwindow {
+    position: absolute;
+    z-index: 2;
+    top: 48.5%;
+}
+#mainwindow .leftnavigation{
+    left: -4.2%;
+}
+#mainwindow .rightnavigation{
+    right: -4.2%;
 }
 
 
@@ -323,7 +345,7 @@ main>#description{
     text-align:right;
 }
 
-.block footer .like *{
+.block footer span{
     color: #000000;
 }
 
@@ -353,7 +375,6 @@ main>#description{
     grid-column: span 2;
 }
 
-
 .block_big{
     grid-column-end: span 3;
     grid-row-end: span 2;
@@ -366,6 +387,35 @@ main>#description{
     height: 99%;
     border-radius: 5px;
 }
+
+.block_comment{
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    display: grid;
+    grid-template-columns: 27.2619% 67%;
+    grid-column-gap: 5.7692%;
+    grid-template-rows: auto 1fr auto;
+}
+.block_comment header{
+    grid-column-start: 2;
+}
+.block_comment .block_comment_img{
+    grid-row: 1/4;
+}
+.block_comment footer .data{
+    font-weight: bold;
+}
+.block_comment footer .author{
+    grid-column-start: 3;
+}
+
+.enterprofile{
+    display: grid;
+    grid-column-end: span 6;
+    text-align: center;
+}
+
+
 
 /* __________FOOTER */
 

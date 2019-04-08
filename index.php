@@ -141,7 +141,7 @@
                     <a class="headline_article">Наименование картинки</a>
                 </header>
                 <p id="block_big_contein">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/images/imgbigblock.jpg">
                 </p>
                 <footer class="footeracricle">
                     <a class="theme text_article_fotter">#Тематика</a>
@@ -171,7 +171,7 @@
                     <a class="headline_article">Наименование прозы</a>
                 </header>
                 <p class="block_average_img">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/cover_art/test.jpg">
                 </p>
                 <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
@@ -188,7 +188,7 @@
                     <a class="headline_article">Наименование прозы</a>
                 </header>
                 <p class="block_average_img">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/cover_art/test.jpg">
                 </p>
                 <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
@@ -214,6 +214,7 @@
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer>
             </article> 
+
             <article class="block_little block border padding_block">
                 <header>
                     <a class="headline_article">Наименование прозы</a>
@@ -233,7 +234,7 @@
                     <a class="headline_article">Наименование прозы</a>
                 </header>
                 <p class="block_average_img">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/cover_art/test.jpg">
                 </p>
                 <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
@@ -250,7 +251,7 @@
                     <a class="headline_article">Наименование прозы</a>
                 </header>
                 <p class="block_average_img">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/cover_art/test.jpg">
                 </p>
                 <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
@@ -262,27 +263,14 @@
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer>
             </article> 
+
             <article class="block_big block border padding_block">
                 <header>
                     <a class="headline_article">Наименование картинки</a>
                 </header>
                 <p id="block_big_contein">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/images/imgbigblock.jpg">
                 </p>
-                <footer class="footeracricle">
-                    <a class="theme text_article_fotter">#Тематика</a>
-                    <a class="like text_article_fotter transformscale">
-                        <img src="img/like.svg" alt="Нравится">
-                        <span>13</span>
-                    </a>
-                    <a class="author text_article_fotter">Петя Васечкин</a> 
-                </footer>
-            </article> 
-            <article class="block_little block border padding_block">
-                <header>
-                    <a class="headline_article">Наименование прозы</a>
-                </header>
-                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
                     <a class="theme text_article_fotter">#Тематика</a>
                     <a class="like text_article_fotter transformscale">
@@ -311,7 +299,7 @@
                     <a class="headline_article">Наименование картинки</a>
                 </header>
                 <p id="block_big_contein">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/images/imgbigblock.jpg">
                 </p>
                 <footer class="footeracricle">
                     <a class="theme text_article_fotter">#Тематика</a>
@@ -322,12 +310,27 @@
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer>
             </article>
+            <article class="block_little block border padding_block">
+                <header>
+                    <a class="headline_article">Наименование прозы</a>
+                </header>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
+                <footer class="footeracricle">
+                    <a class="theme text_article_fotter">#Тематика</a>
+                    <a class="like text_article_fotter transformscale">
+                        <img src="img/like.svg" alt="Нравится">
+                        <span>13</span>
+                    </a>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
+                </footer>
+            </article>
+
             <article class="block_average block border padding_block">
                 <header>
                     <a class="headline_article">Наименование прозы</a>
                 </header>
                 <p class="block_average_img">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/cover_art/test.jpg">
                 </p>
                 <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
@@ -344,7 +347,7 @@
                     <a class="headline_article">Наименование прозы</a>
                 </header>
                 <p class="block_average_img">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                    <img class="imguser" src="users/img/cover_art/test.jpg">
                 </p>
                 <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
@@ -361,7 +364,7 @@
                     <a class="headline_article">Наименование прозы</a>
                 </header>
                 <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
-                <footer class="footeracricle">
+                <footer>
                     <a class="theme text_article_fotter">#Тематика</a>
                     <a class="like text_article_fotter transformscale">
                         <img src="img/like.svg" alt="Нравится">
@@ -370,20 +373,113 @@
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer>
             </article>
+            <a class="navigation_mainwindow leftnavigation"><img class="averageicon transformscale" src="img/left.svg"></a>
+            <a class="navigation_mainwindow rightnavigation"><img class="averageicon transformscale" src="img/right.svg"></a>
         </section>
-        <section class="mainblock8 grid_row_gap">
+        <section class="mainblock8 gridCommentrow grid_row_gap">
             <h2 class="headline_section">Комментарии</h2>
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_article">Где оставлен комментарий</a>
+                    <a class="headline_comment">Где оставлен комментарий</a>
                 </header>
-                <p class="block_average_img">
-                    <img class="imguser" src="users/img/imgbigblock.jpg">
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
                 </p>
-                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. </p>
-                <footer class="footeracricle">
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
-                    <span class="date">20.12.2018</span>
+                </footer> 
+            </article>
+            <article class="block border block_comment padding_block">
+                <header>
+                    <a class="headline_comment">Где оставлен комментарий</a>
+                </header>
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
+                </p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
+                </footer> 
+            </article>
+            <article class="block border block_comment padding_block">
+                <header>
+                    <a class="headline_comment">Где оставлен комментарий</a>
+                </header>
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
+                </p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
+                </footer> 
+            </article>
+            <article class="block border block_comment padding_block">
+                <header>
+                    <a class="headline_comment">Где оставлен комментарий</a>
+                </header>
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
+                </p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
+                </footer> 
+            </article>
+            <article class="block border block_comment padding_block">
+                <header>
+                    <a class="headline_comment">Где оставлен комментарий</a>
+                </header>
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
+                </p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
+                </footer> 
+            </article>
+            <article class="block border block_comment padding_block">
+                <header>
+                    <a class="headline_comment">Где оставлен комментарий</a>
+                </header>
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
+                </p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
+                </footer> 
+            </article>
+            <article class="block border block_comment padding_block">
+                <header>
+                    <a class="headline_comment">Где оставлен комментарий</a>
+                </header>
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
+                </p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
+                </footer> 
+            </article>
+            <article class="block border block_comment padding_block">
+                <header>
+                    <a class="headline_comment">Где оставлен комментарий</a>
+                </header>
+                <p class="block_comment_img">
+                    <img class="imguser" src="users/img/avatars/avatest.jpg">
+                </p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit.</p>
+                <footer>
+                    <span class="like text_article_fotter data">20.12.2018</span>
+                    <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
             </article>
         </section>
