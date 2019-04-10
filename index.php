@@ -135,6 +135,7 @@
                 <a><img class="littleicon right transformscale" src="img/right.svg"></a>
             </li>
         </section>
+        <a class="navigation_button" id="leftnavigation"><img class="averageicon transformscale" src="img/left.svg"></a>
         <section class="mainblock8 gridArow grid_row_gap" id="mainwindow">
             <article class="block_big block border padding_block">
                 <header>
@@ -373,9 +374,10 @@
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer>
             </article>
-            <a class="navigation_mainwindow leftnavigation"><img class="averageicon transformscale" src="img/left.svg"></a>
-            <a class="navigation_mainwindow rightnavigation"><img class="averageicon transformscale" src="img/right.svg"></a>
+            <!-- <a class="navigation_mainwindow leftnavigation"><img class="averageicon transformscale" src="img/left.svg"></a>
+            <a class="navigation_mainwindow rightnavigation"><img class="averageicon transformscale" src="img/right.svg"></a> -->
         </section>
+        <a class="navigation_button" id="rightnavigation"><img class="averageicon transformscale" src="img/right.svg"></a>
         <section class="mainblock8 gridCommentrow grid_row_gap">
             <h2 class="headline_section">Комментарии</h2>
             <article class="block border block_comment padding_block">

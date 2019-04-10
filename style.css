@@ -13,7 +13,6 @@ body{
     font-size: 1em;
     font-family: "Roboto", sans-serif;
     background: #F2F2F2;
-    background: #F2F2F2;
     position: relative;
 }
 
@@ -61,7 +60,7 @@ a:hover{
 .margin05{margin:15px;}
 .transformscale:hover{transform: scale(1.2,1.2);}
 .gridArow{grid-auto-rows: 180px;}
-.gridCommentrow{grid-auto-rows: 120px;}
+.gridCommentrow{grid-template-rows: auto; grid-auto-rows: 120px;}
 
 @media all and (max-width: 1550px) {
     .headline_a{font-size: 14px;}
@@ -72,6 +71,7 @@ a:hover{
     .text_article_fotter{font-size: 10px;}
     .grid_row_gap{grid-row-gap: 26px;}
     .littleicon{width:18px;}
+    .averageicon{width:28px;}
     .navicon{width:21px;}
     
 }
@@ -85,6 +85,7 @@ a:hover{
     .text_article_fotter{font-size: 8px;}
     .grid_row_gap{grid-row-gap: 22px;}
     .littleicon{width:17px;}
+    .averageicon{width:26px;}
     .navicon{width:18px;}
 }
 
@@ -238,7 +239,6 @@ main>.mainblock8{
     grid-column: 3/11;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: auto;
     grid-column-gap: 2.4%;
 }
 
@@ -294,17 +294,22 @@ main>#description{
     grid-auto-flow: row dense;
     position: relative;
 }
-#mainwindow .navigation_mainwindow {
-    position: absolute;
-    z-index: 2;
-    top: 48.5%;
+.navigation_button{
+    display:grid;
+    align-content: center; 
 }
-#mainwindow .leftnavigation{
-    left: -4.2%;
+
+#leftnavigation{
+    grid-column: 2;
+    display: grid;
+    justify-items: end;
 }
-#mainwindow .rightnavigation{
-    right: -4.2%;
+
+#rightnavigation{
+    grid-column: 11;
+    display: grid;
 }
+
 
 
 /* __________FILTER */
