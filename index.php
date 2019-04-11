@@ -161,7 +161,7 @@
                 <header>
                     <a class="headline_article">Наименование прозы</a>
                 </header>
-                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
+                <p class="text_article_description">Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.Lorem ipsum dolor sit consectetur adipisicing elit. Obcaecati reprehenderit tempore ut. Reiciendis totam maiores cumque odit non nihil sapiente. Aspernatur provident, ad cumque officiis libero atque magni omnis tenetur sint deleniti, porro suscipit veniam nobis qui excepturi. Nobis, sed! Laboriosam.</p>
                 <footer class="footeracricle">
                     <a class="theme text_article_fotter">#Тематика</a>
                     <a class="like text_article_fotter transformscale">
@@ -390,7 +390,7 @@
             <h2 class="headline_section">Комментарии</h2>
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -403,7 +403,7 @@
             </article>
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -413,10 +413,10 @@
                     <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
-            </article>
+            </article>            
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -426,10 +426,10 @@
                     <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
-            </article>
+            </article>            
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -439,10 +439,10 @@
                     <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
-            </article>
+            </article>            
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -452,10 +452,10 @@
                     <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
-            </article>
+            </article>            
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -465,10 +465,10 @@
                     <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
-            </article>
+            </article>            
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -478,10 +478,10 @@
                     <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
-            </article>
+            </article>            
             <article class="block border block_comment padding_block">
                 <header>
-                    <a class="headline_comment">Где оставлен комментарий</a>
+                    <a class="headline_comment overflow">Где оставлен комментарий</a>
                 </header>
                 <p class="block_comment_img">
                     <img class="imguser" src="users/img/avatars/avatest.jpg">
@@ -491,7 +491,6 @@
                     <span class="like text_article_fotter data">20.12.2018</span>
                     <a class="author text_article_fotter">Петя Васечкин</a> 
                 </footer> 
-            </article>
         </section>
     </main>
     <footer>

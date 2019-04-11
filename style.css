@@ -48,7 +48,7 @@ a:hover{
 .headline_comment{font-size: 12px;font-weight: bold;text-decoration-line: underline; color: #000000;}
     .headline_comment:hover{ color:red;}
 .text_description{font-size: 14px;}
-.text_article_description{font-size: 13px; text-align: justify;}
+.text_article_description{font-size: 13px; text-align: justify; overflow: hidden;}
 .text_article_fotter{font-size: 10px; color: red;}
 .grid_row_gap{grid-row-gap: 30px;}
 .grig_gap{grid-gap:30px;}
@@ -61,7 +61,7 @@ a:hover{
 .transformscale:hover{transform: scale(1.2,1.2);}
 .gridArow{grid-auto-rows: 180px;}
 .gridCommentrow{grid-template-rows: auto; grid-auto-rows: 120px;}
-.overflow{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.overflow{white-space:nowrap; overflow: hidden; text-overflow: ellipsis; display:block;}
 
 @media all and (max-width: 1550px) {
     .headline_a{font-size: 14px;}
@@ -74,6 +74,8 @@ a:hover{
     .littleicon{width:18px;}
     .averageicon{width:28px;}
     .navicon{width:21px;}
+    .gridArow{grid-auto-rows: 160px;}
+    .gridCommentrow{grid-auto-rows: 110px;}
     
 }
 
@@ -88,6 +90,8 @@ a:hover{
     .littleicon{width:17px;}
     .averageicon{width:26px;}
     .navicon{width:18px;}
+    .gridArow{grid-auto-rows: 145px;}
+    .gridCommentrow{grid-auto-rows: 100px;}
 }
 
 
