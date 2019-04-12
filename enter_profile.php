@@ -55,13 +55,13 @@
                 <p>Войти через:</p>
                 <ul>
                     <li>
-                        <a><img class="social_network" alt="Google" url="img/"></a>
+                        <a><img class="social_network" alt="Google" src="img/social/Google.png"></a>
                     </li>
                     <li>
-                        <a><img class="social_network" alt="В Контакте" url="img/"></a>
+                        <a><img class="social_network" alt="В Контакте" src="img/social/VK.png"></a>
                     </li>
                     <li>
-                        <a><img class="social_network" alt="Facebook" url="img/"></a>
+                        <a><img class="social_network" alt="Facebook" src="img/social/Facebook.png"></a>
                     </li>
                 </ul>
                 <p>или:</p>
