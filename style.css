@@ -58,10 +58,12 @@ a:hover{
 .averageicon{width:30px;}
 .navicon{width:25px;}
 .margin05{margin:15px;}
+.margin025{margin: 7.5px;}
 .transformscale:hover{transform: scale(1.2,1.2);}
 .gridArow{grid-auto-rows: 180px;}
 .gridCommentrow{grid-template-rows: auto; grid-auto-rows: 120px;}
 .overflow{white-space:nowrap; overflow: hidden; text-overflow: ellipsis; display:block;}
+.margin-bottom{margin-bottom: 0px;}
 
 @media all and (max-width: 1550px) {
     .headline_a{font-size: 14px;}
@@ -449,6 +451,27 @@ body>footer a {
 
 
 /*____________________________enter_profile.php________________________ */
+
+.enterprofilesocial ul li{
+    list-style-type: none;
+    display: inline;
+} 
+
+.enterprofileinput form{
+    display: inline-grid;
+    grid-template-columns: 46.33615% 46.33615%;
+    grid-column-gap: 7.3277%;
+    justify-items: center;
+}
+
+.enterprofileinput div input{
+    width: 100%;
+}
+
+.enterprofileinput form input{
+    grid-column: span 2;
+}
+
 
 
 

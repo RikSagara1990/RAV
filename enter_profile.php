@@ -49,24 +49,39 @@
         <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </nav>
     <main class="grid_row_gap">
-        <section class="mainblock6" id="description">
+        <section class="mainblock6 grid_row_gap" id="description">
             <h2 class="headline_section">Вход в личный кабинет</h2>
-            <article class="block border padding_block enterprofile">
-                <p>Войти через:</p>
-                <ul>
-                    <li>
-                        <a><img class="social_network" alt="Google" src="img/social/Google.png"></a>
-                    </li>
-                    <li>
-                        <a><img class="social_network" alt="В Контакте" src="img/social/VK.png"></a>
-                    </li>
-                    <li>
-                        <a><img class="social_network" alt="Facebook" src="img/social/Facebook.png"></a>
-                    </li>
-                </ul>
-                <p>или:</p>
+            <div class="block border padding_block enterprofile">
+                <div class="enterprofilesocial">
+                    <p>Войти через:</p>
+                    <ul class="margin05 margin-bottom">
+                        <li class="margin025">
+                            <a><img class="social_network" alt="Google" src="img/social/Google.png"></a>
+                        </li>
+                        <li class="margin025">
+                            <a><img class="social_network" alt="В Контакте" src="img/social/VK.png"></a>
+                        </li>
+                        <li class="margin025">
+                            <a><img class="social_network" alt="Facebook" src="img/social/Facebook.png"></a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="margin05">или:</p>
+                <div class="enterprofileinput">
+                    <form class="grid_gap05">
+                    <div id="login">
+                        <span>Логин</span>
+                        <input type="text">
+                    </div>
+                    <div id="password">
+                        <span>Пароль</span>
+                        <input type="password">
+                    </div>
+                    <input type="submit" value="Вход">
+                    </form>
+                </div>
                 
-            </article>
+            </div>
         </section>
        
     </main>
