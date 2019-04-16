@@ -49,39 +49,56 @@
         <input type="image" id="showmenu" src="img/tongue.svg" alt="Меню">
     </nav>
     <main class="grid_row_gap">
-        <section class="mainblock6 grid_row_gap" id="description">
+        <section class="mainblock6 grid_row_gap">
             <h2 class="headline_section">Вход в личный кабинет</h2>
-            <div class="block border padding_block enterprofile">
-                <div class="enterprofilesocial">
-                    <p>Войти через:</p>
-                    <ul class="margin05 margin-bottom">
-                        <li class="margin025">
-                            <a><img class="social_network" alt="Google" src="img/social/Google.png"></a>
-                        </li>
-                        <li class="margin025">
-                            <a><img class="social_network" alt="В Контакте" src="img/social/VK.png"></a>
-                        </li>
-                        <li class="margin025">
-                            <a><img class="social_network" alt="Facebook" src="img/social/Facebook.png"></a>
-                        </li>
-                    </ul>
-                </div>
-                <p class="margin05">или:</p>
+            <div class="block border padding_block7_5 enterprofile">
+                <div>
+                    <p class="margin025 text_description">Войти через:</p>
+                    <a class="margin025"><img class="social_network" alt="Google" src="img/social/Google.png"></a>
+                    <a class="margin025"><img class="social_network" alt="В Контакте" src="img/social/VK.png"></a>
+                    <a class="margin025"><img class="social_network" alt="Facebook" src="img/social/Facebook.png"></a>
+                <p class="margin025 text_description">или:</p>
                 <div class="enterprofileinput">
-                    <form class="grid_gap05">
-                    <div id="login">
-                        <span>Логин</span>
-                        <input type="text">
+                    <form  class="margin025 grid_gap05">
+                    <div>
+                        <label class="text_description_bold" for="login ">Логин</label>
+                        <input id="login" type="text">
                     </div>
-                    <div id="password">
-                        <span>Пароль</span>
-                        <input type="password">
+                    <div>
+                        <label class="text_description_bold" for="password">Пароль</label>
+                        <input id="password" type="password">
                     </div>
-                    <input type="submit" value="Вход">
+                    <input class="button text_description_bold" type="submit" value="Вход">
                     </form>
                 </div>
-                
             </div>
+        </section>
+        <section class="mainblock6 grid_row_gap">
+            <h2 class="headline_section">Зарегистрироватся</h2>
+            <form class="block border padding_block registrationprofile grid_gap05">
+                <img class="imguser" src="users\img\avatars\defaultuser.jpg">
+                <div class="grid_gap05 text_description_bold">
+                    <h3 class="grid_gap05 text_description_bold">Информация о пользователе</h3>
+                    <label class="text_description_bold_red" for="reglogin">Логин</label>
+                    <input it="reglogin" type="text">
+                    <label class="text_description_bold_red" for="regname">Имя</label>
+                    <input if="regname" type="text">
+                    <label class="text_description_bold_red" for="regsurname">Фамилия</label>
+                    <input id="regsurname" type="text">
+                    <label for="regpatronymic">Отчество</label>
+                    <input id="regpatronymic" type="text">
+                    <label for="regcity">Город</label>
+                    <input id="regcity" type="text">
+                    <label class="text_description_bold_red" for="regemail">Email</label>
+                    <input id="regemail" type="text">
+                    </br>
+                    </br>
+                    </br>
+                </div>
+                <input class="button text_description_bold" id="regavatar" type="button" value="Изменить аватар">
+                <input class="button text_description_bold" type="submit" value="Зарегистрироватся">
+
+            </form>
         </section>
        
     </main>

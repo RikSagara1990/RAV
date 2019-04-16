@@ -48,12 +48,15 @@ a:hover{
 .headline_comment{font-size: 12px;font-weight: bold;text-decoration-line: underline; color: #000000;}
     .headline_comment:hover{ color:red;}
 .text_description{font-size: 14px;}
+.text_description_bold{font-size: 14px; font-weight:bold;}
+.text_description_bold_red{font-size: 14px; font-weight:bold; color: red;}
 .text_article_description{font-size: 13px; text-align: justify; overflow: hidden;}
 .text_article_fotter{font-size: 10px; color: red;}
 .grid_row_gap{grid-row-gap: 30px;}
 .grig_gap{grid-gap:30px;}
 .grid_gap05{grid-gap:15px;}
 .padding_block{padding:15px;}
+.padding_block7_5{padding:7.5px;}
 .littleicon{width:19px;}
 .averageicon{width:30px;}
 .navicon{width:25px;}
@@ -63,7 +66,7 @@ a:hover{
 .gridArow{grid-auto-rows: 180px;}
 .gridCommentrow{grid-template-rows: auto; grid-auto-rows: 120px;}
 .overflow{white-space:nowrap; overflow: hidden; text-overflow: ellipsis; display:block;}
-.margin-bottom{margin-bottom: 0px;}
+.button{border: 2px solid #ff0033; border-radius: 5px; background: #f2f2f2; padding: 0 10px 0 10px;}
 
 @media all and (max-width: 1550px) {
     .headline_a{font-size: 14px;}
@@ -394,7 +397,8 @@ main>#description{
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr auto;
 }
-.block .imguser {
+
+.imguser {
     width: 100%;
     height: 99%;
     border-radius: 5px;
@@ -421,14 +425,6 @@ main>#description{
     grid-column-start: 3;
 }
 
-.enterprofile{
-    display: grid;
-    grid-column-end: span 6;
-    text-align: center;
-}
-
-
-
 /* __________FOOTER */
 
 body>footer {
@@ -452,27 +448,44 @@ body>footer a {
 
 /*____________________________enter_profile.php________________________ */
 
-.enterprofilesocial ul li{
-    list-style-type: none;
-    display: inline;
-} 
+.enterprofile{
+    display: grid;
+    grid-column-end: span 6;
+    text-align: center;
+}
 
 .enterprofileinput form{
     display: inline-grid;
     grid-template-columns: 46.33615% 46.33615%;
+
     grid-column-gap: 7.3277%;
     justify-items: center;
 }
 
 .enterprofileinput div input{
     width: 100%;
-}
+} 
 
 .enterprofileinput form input{
     grid-column: span 2;
 }
 
+.registrationprofile{
+    display: grid;
+    grid-column-end: span 6;
+    grid-template-columns: 30.5% 66.2%;
+    grid-column-gap: 3.3%;
+}
 
+.registrationprofile div{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    grid-column-gap: 3%;
+    text-align: center;
+}
+.registrationprofile div h3{
+    grid-column-end: span 2;
+}
 
 
 
