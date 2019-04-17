@@ -67,6 +67,7 @@ a:hover{
 .gridCommentrow{grid-template-rows: auto; grid-auto-rows: 120px;}
 .overflow{white-space:nowrap; overflow: hidden; text-overflow: ellipsis; display:block;}
 .button{border: 2px solid #ff0033; border-radius: 5px; background: #f2f2f2; padding: 0 10px 0 10px;}
+    .button:hover{cursor: pointer; background: #cfcfcf;}
 
 @media all and (max-width: 1550px) {
     .headline_a{font-size: 14px;}
@@ -307,6 +308,7 @@ main>#description{
 .navigation_button{
     display:grid;
     align-content: space-between; 
+ 
 }
 
 #leftnavigation{
@@ -448,13 +450,13 @@ body>footer a {
 
 /*____________________________enter_profile.php________________________ */
 
-.enterprofile{
+#enterprofile{
     display: grid;
     grid-column-end: span 6;
     text-align: center;
 }
 
-.enterprofileinput form{
+#enterprofileinput form{
     display: inline-grid;
     grid-template-columns: 46.33615% 46.33615%;
 
@@ -462,33 +464,36 @@ body>footer a {
     justify-items: center;
 }
 
-.enterprofileinput div input{
+#enterprofileinput div input{
     width: 100%;
 } 
 
-.enterprofileinput form input{
+#enterprofileinput form input{
     grid-column: span 2;
 }
 
-.registrationprofile{
+#registrationprofile{
     display: grid;
     grid-column-end: span 6;
     grid-template-columns: 30.5% 66.2%;
     grid-column-gap: 3.3%;
 }
 
-.registrationprofile div{
+#registrationprofile div{
     display: grid;
-    grid-template-columns: 20% 75%;
-    grid-column-gap: 3%;
+    grid-template-columns: 21.9% 73.3%;
+    grid-column-gap: 4.8%;
     text-align: center;
 }
-.registrationprofile div h3{
+#registrationprofile div h3{
     grid-column-end: span 2;
 }
 
+/*____________________________account.php________________________ */
 
-
+#accountblock {
+    
+}
 
 
 
